@@ -26,7 +26,7 @@ public class PokerCard extends AbstractEasyCard {
     private static final TextureAtlas.AtlasRegion cardBgAtlas = new TextureAtlas.AtlasRegion(cardBg, 0, 0, cardBg.getWidth(), cardBg.getHeight());
 
     public PokerCard(int rank, Suits suit) {
-        super(ID, -1, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ENEMY);
+        super(ID, -2, CardType.ATTACK, CardRarity.SPECIAL, CardTarget.ENEMY);
         Rank = rank;
         Suit = suit;
 
@@ -102,8 +102,6 @@ public class PokerCard extends AbstractEasyCard {
     public void renderBannerImage(SpriteBatch sb, float drawX, float drawY) {
     }
 
-
-
     private TextureAtlas.AtlasRegion getForeground() {
         int idx = 0;
         idx += Rank;
@@ -143,6 +141,10 @@ public class PokerCard extends AbstractEasyCard {
     }
 
 
+    @Override
+    public AbstractCard makeStatEquivalentCopy() {
+        return new PokerCard(Rank, Suit);
+    }
 
     public static enum Suits {
         HEARTS,

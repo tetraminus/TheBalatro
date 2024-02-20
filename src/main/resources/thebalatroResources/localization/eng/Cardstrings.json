@@ -7,6 +7,10 @@
     "NAME": "Defend",
     "DESCRIPTION": "Gain !B! Block."
   },
+  "${ModID}:PokerCard": {
+    "NAME": "Poker Card",
+    "DESCRIPTION": ""
+  },
 
   "${ModID}:PlayPoker": {
     "NAME": "Play Poker",

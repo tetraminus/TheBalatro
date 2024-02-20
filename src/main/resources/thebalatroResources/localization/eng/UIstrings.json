@@ -71,6 +71,11 @@
         "Four of a Kind"
         ]
     },
+    "${ModID}:ThreeOfAKindHand" :{
+      "TEXT": [
+        "Three of a Kind"
+      ]
+    },
     "${ModID}:StraightFlushHand" :{
         "TEXT": [
         "Straight Flush"
@@ -80,6 +85,10 @@
         "TEXT": [
         "Royal Flush"
         ]
+    },
+    "${ModID}:FiveOfAKindHand" :{
+        "TEXT": [
+        "Five of a Kind"
+        ]
     }
-    
 }

@@ -58,7 +58,7 @@ public class ScoreHandEffect extends AbstractGameEffect {
         // move each scoring card up in order with a slight delay
         for (int i = 0; i < ScoringCards.size(); i++) {
             if (this.duration - 1 < handDuration - (i * 0.2f) && !movedCards.contains(ScoringCards.get(i))) {
-                ScoringCards.get(i).target_y += 200f;
+                ScoringCards.get(i).target_y += 200f * Settings.scale;
                 movedCards.add(ScoringCards.get(i));
             }
         }

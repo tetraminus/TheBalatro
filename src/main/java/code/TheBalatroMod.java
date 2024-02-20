@@ -48,7 +48,7 @@ public class TheBalatroMod implements
         AddAudioSubscriber,
         StartGameSubscriber,
         PostInitializeSubscriber,
-PostDungeonUpdateSubscriber{
+        PostDungeonUpdateSubscriber{
 
     public static final String modID = "thebalatro";
 

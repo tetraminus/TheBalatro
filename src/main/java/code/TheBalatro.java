@@ -4,6 +4,7 @@ import basemod.abstracts.CustomEnergyOrb;
 import basemod.abstracts.CustomPlayer;
 import basemod.animations.SpriterAnimation;
 import code.cards.Defend;
+import code.cards.PlayPoker;
 import code.cards.Strike;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -67,16 +68,13 @@ public class TheBalatro extends CustomPlayer {
         ArrayList<String> retVal = new ArrayList<>();
 
         //strike and defend are the default cards
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 4; i++) {
             retVal.add(Strike.ID);
         }
-
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 4; i++) {
             retVal.add(Defend.ID);
         }
-
-
-
+        retVal.add(PlayPoker.ID);
 
         return retVal;
     }
