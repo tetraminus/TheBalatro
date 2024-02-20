@@ -8,7 +8,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import code.cards.AbstractEasyCard;
 
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 import static code.util.Wiz.atb;
 
 public class StartupBlockCard extends AbstractEasyCard implements StartupCard { // This card implements StartupCard, an extra 'type' of card that adds the ability to trigger at the start of combat.

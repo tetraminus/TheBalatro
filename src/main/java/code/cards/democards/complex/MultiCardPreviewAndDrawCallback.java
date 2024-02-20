@@ -10,7 +10,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import code.cards.AbstractEasyCard;
 
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 import static code.util.Wiz.actionify;
 import static code.util.Wiz.atb;
 import static code.util.Wiz.shuffleIn;

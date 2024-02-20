@@ -13,7 +13,7 @@ import code.cards.AbstractEasyCard;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 import static code.util.Wiz.*;
 
 public class SelectCardsPlusCardMods extends AbstractEasyCard {

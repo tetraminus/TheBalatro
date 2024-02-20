@@ -1,0 +1,85 @@
+{
+
+  "${ModID}:PokerDeckTopPanel" :{
+    "TEXT": [
+      "Poker Deck",
+      "View all cards in your Poker Deck.",
+      "These cards start in your Poker Deck and can be drawn into your hand during combat."
+    ]
+  },
+    "${ModID}:PokerCardSelectScreen" :{
+      "TEXT": [
+        "Current Chips: #b",
+        " Current Mult: #r",
+        " Current Hand: #y",
+        "none"
+      ]
+
+    },
+    "${ModID}:PokerDrawPileButton" :{
+      "TEXT": [
+        "Poker Draw Pile",
+        "This contains the poker cards that you can draw into your hand during combat.",
+        "I'm out of cards!"
+      ]
+    },
+
+
+    "${ModID}:PokerPileViewScreen" :{
+      "TEXT": [
+        "Combat poker deck view screen"
+      ]
+    },
+    "${ModID}:DiscardButton" :{
+      "TEXT": [
+        "Discard"
+      ]
+    },
+  "${ModID}:HighCardHand" :{
+    "TEXT": [
+      "High Card"
+    ]
+  },
+
+    "${ModID}:PairHand" :{
+    "TEXT": [
+      "Pair"
+    ]
+    },
+  "${ModID}:TwoPairHand" :{
+    "TEXT": [
+      "Two Pair"
+    ]
+  },
+    "${ModID}:StraightHand" :{
+        "TEXT": [
+        "Straight"
+        ]
+    },
+    "${ModID}:FlushHand" :{
+        "TEXT": [
+        "Flush"
+        ]
+    },
+    "${ModID}:FullHouseHand" :{
+        "TEXT": [
+        "Full House"
+        ]
+    },
+    "${ModID}:FourOfAKindHand" :{
+        "TEXT": [
+        "Four of a Kind"
+        ]
+    },
+    "${ModID}:StraightFlushHand" :{
+        "TEXT": [
+        "Straight Flush"
+        ]
+    },
+    "${ModID}:RoyalFlushHand" :{
+        "TEXT": [
+        "Royal Flush"
+        ]
+    }
+    
+}

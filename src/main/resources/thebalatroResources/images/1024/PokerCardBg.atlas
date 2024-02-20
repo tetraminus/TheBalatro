@@ -1,0 +1,12 @@
+8BitDeck.png
+size: 1846,760
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Hearts/2
+  rotate: false
+  xy: 0, 0
+  size: 250, 190
+  orig: 250, 190
+  offset: 2, 8
+  index: -1

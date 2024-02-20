@@ -6,7 +6,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import code.cards.AbstractEasyCard;
 
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 import static code.util.Wiz.*;
 
 public class DrawAndShiv extends AbstractEasyCard {

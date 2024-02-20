@@ -8,7 +8,7 @@ import code.actions.EasyXCostAction;
 import code.cards.AbstractEasyCard;
 
 import static code.util.Wiz.*;
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 
 public class EasyXCostDemo extends AbstractEasyCard {
     public final static String ID = makeID(EasyXCostDemo.class.getSimpleName());

@@ -3,7 +3,7 @@ package code.cards.cardvars;
 import code.cards.AbstractEasyCard;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 
 public class ThirdMagicNumber extends AbstractEasyDynamicVariable {
 

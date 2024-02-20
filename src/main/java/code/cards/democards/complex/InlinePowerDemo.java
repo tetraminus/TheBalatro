@@ -9,7 +9,7 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import code.cards.AbstractEasyCard;
 import code.powers.LambdaPower;
 
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 import static code.util.Wiz.applyToSelf;
 import static code.util.Wiz.atb;
 

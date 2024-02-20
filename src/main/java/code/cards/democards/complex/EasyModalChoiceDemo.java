@@ -11,7 +11,7 @@ import code.cards.EasyModalChoiceCard;
 
 import java.util.ArrayList;
 
-import static code.ModFile.makeID;
+import static code.TheBalatroMod.makeID;
 import static code.util.Wiz.*;
 
 public class EasyModalChoiceDemo extends AbstractEasyCard {
